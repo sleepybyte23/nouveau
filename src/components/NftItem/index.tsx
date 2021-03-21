@@ -21,7 +21,7 @@ import Column from 'components/Column'
 // `
 
 const dataType = {
-  image: ['image/jpeg'],
+  image: ['image/jpeg', 'image/gif', 'image/png'],
   video: ['video/mp4']
 }
 
@@ -42,7 +42,7 @@ const Video = styled.video`
 const Card = styled.div`
   overflow: hidden;
   //padding: 0 0 32px;
-  margin: 10px;
+  margin: 20px;
   font-family: Quicksand, arial, sans-serif;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
@@ -50,9 +50,14 @@ const Card = styled.div`
 `
 
 const CardContainer = styled.div`
-  flex-basis: 200px;
-  flex-shrink: 1;
-  flex-grow: 1;
+  //flex: 0 1 32%;
+  width: calc(100% * (1 / 3));
+  @media screen and (max-width: 992px) {
+    width: calc(100% * (1 / 2));
+  }
+  @media screen and (max-width: 650px) {
+    width: calc(100% * (1));
+  }
 `
 
 const CardBody = styled.div`
@@ -74,10 +79,24 @@ const NftItem = ({ item }: any) => {
     <CardContainer>
       <Card>
         <CardMedia>
-          {getMediaType(data.media.mimeType) == 'video' ? (
-            <Video muted loop autoPlay>
-              <source src={data.media.uri} type="video/mp4" />
-            </Video>
+          <Image
+            src={data.image}
+            sx={{
+              textAlign: 'center',
+              borderRadius: 8
+            }}
+          />
+          {/* {getMediaType(data.media.mimeType) == 'video' ? (
+            // <Video muted loop autoPlay>
+            //   <source src={data.media.uri} type="video/mp4" />
+            // </Video>
+            <Image
+              src={data.image}
+              sx={{
+                textAlign: 'center',
+                borderRadius: 8
+              }}
+            />
           ) : (
             ''
           )}
@@ -85,23 +104,20 @@ const NftItem = ({ item }: any) => {
             <Image
               src={data.image}
               sx={{
-                width: '100%',
-                borderRadius: 8,
-                height: '400px'
+                borderRadius: 8
               }}
             />
           ) : (
             ''
-          )}
+          )} */}
         </CardMedia>
         <CardBody>
-          <Flex alignItems="center">
+          <Flex alignItems="center" sx={{}}>
             <Box px={2} py={2} width={3 / 4}>
               <Text
                 p={1}
                 fontSize={[3]}
                 fontWeight="bold"
-                color="background"
                 bg="primary"
                 sx={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
               >
@@ -109,27 +125,29 @@ const NftItem = ({ item }: any) => {
               </Text>
             </Box>
             <Box px={2} py={2} width={1 / 4}>
-              <Text p={1} fontSize={[1]} fontWeight="bold" color="background" bg="primary" sx={{ float: 'right' }}>
+              <Text p={1} fontSize={[1]} fontWeight="bold" bg="primary" sx={{ float: 'right' }}>
                 Artist
               </Text>
-              <Text p={1} fontSize={[1]} fontWeight="bold" color="background" bg="primary" sx={{ float: 'right' }}>
+
+              <CardSplit />
+              <Text p={1} fontSize={[1]} fontWeight="bold" bg="primary" sx={{ float: 'right' }}>
                 Address
               </Text>
             </Box>
           </Flex>
-          <Flex alignItems="center">
+          <Flex alignItems="center" sx={{}}>
             <Box px={2} py={2} width={3 / 4}>
-              <Text p={1} fontSize={[2]} fontWeight="bold" color="background" bg="primary">
+              <Text p={1} fontSize={[2]} fontWeight="bold" bg="primary">
                 Eth 2.0 ($4000)
               </Text>
             </Box>
 
             <Box px={2} py={2} width={1 / 4}>
-              <Text p={1} fontSize={[1]} fontWeight="bold" color="background" bg="primary" sx={{ float: 'right' }}>
+              <Text p={1} fontSize={[1]} fontWeight="bold" bg="primary" sx={{ float: 'right' }}>
                 Owner
               </Text>
-
-              <Text p={1} fontSize={[1]} fontWeight="bold" color="background" bg="primary" sx={{ float: 'right' }}>
+              <CardSplit />
+              <Text p={1} fontSize={[1]} fontWeight="bold" bg="primary" sx={{ float: 'right' }}>
                 Address1
               </Text>
             </Box>

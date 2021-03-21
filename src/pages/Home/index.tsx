@@ -128,103 +128,95 @@ export default function Home() {
       auctionType: 'penny',
       nftLocation: 'superrare',
       data: {
-        name: 'People Nowadays',
-        createdBy: '@mehmetgeren',
-        yearCreated: '2021',
-        description: '"People Nowadays"\nResolution : 3000x3000px',
-        image: 'https://ipfs.pixura.io/ipfs/Qmbb8eHjkDqvK5CKZkvhHm4T5QaiMTpRc4t6WLYqZAw7HN/david-face2.jpg',
-        media: {
-          uri: 'https://ipfs.pixura.io/ipfs/Qmbb8eHjkDqvK5CKZkvhHm4T5QaiMTpRc4t6WLYqZAw7HN/david-face2.jpg',
-          dimensions: '3000x3000',
-          size: '2344996',
-          mimeType: 'image/jpeg'
-        },
-        tags: ['3d', 'sculpture', 'art', 'socialmedia', '3dart', 'surrealism', 'cgi', '3D']
-      }
-    },
-    {
-      auctionType: 'penny',
-      nftLocation: 'superrare',
-      data: {
-        name: 'LITLE COLD HEART - IN BETWEEN DEATH AND MADNESS',
-        createdBy: 'phlofy',
+        name: 'Michael Jordan by Michael Jordan',
+        createdBy: 'Michael Jordan',
         yearCreated: '2021',
         description:
-          '“I will always be the virgin-prostitute, the perverse angel, the two-faced sinister and saintly woman.”\n- Anais Nin\n...\nBe who the hell you want to be, just be mine',
-        image:
-          'https://ipfs.pixura.io/ipfs/QmWB6bB79hMeWe3uWzgQxSMdriyHv13KyPA6jGGZAsbQt2/AVATAR-LITLECOLDHEART-INBETWEENDEATHANDMADNESS.jpg',
+          'Michael Jordan, the American Basketball Player by Michael Jordan, the South African Crypto Artist. When I tell people my name is Michael Jordan, I always get strange reactions, during lockdown, ESPN interviewed me and another 15 people who share the name with the Legendary Basketball Player. I\'m also a big fan of Pokemon and wanted to add my own flavour of "Michael Jordan Personality" to this piece. The fact that I\'m minting this a day after the Pokemon 25th Anniversary is just a bonus and adds to the celebration.',
+        image: 'https://ipfs.pixura.io/ipfs/QmQufjVuQQ57fWVDRzX2BCg1xosKXEg2vbz2d8ygy2uHJp/ezgif.com-gif-maker34.gif',
         media: {
-          uri:
-            'https://ipfs.pixura.io/ipfs/QmTZtPFbwAWJbC7kT77WB5rTygjnQiN4MboxiiMKXmX5NE/LITLECOLDHEART-INBETWEENDEATHANDMADNESS.jpg',
-          dimensions: '4423x6825',
-          size: '25976295',
-          mimeType: 'image/jpeg'
-        },
-        tags: ['illustration', 'phlofy', 'surreal', 'surrealism', 'floral', 'love', 'heart', 'woman', 'koi', 'abstract']
-      }
-    },
-    {
-      auctionType: 'penny',
-      nftLocation: 'superrare',
-      data: {
-        name: 'Come Down',
-        createdBy: 'Crack',
-        yearCreated: '2021',
-        description:
-          'Come Down // Come down from what ? Substances or your existence ?\n\nFreshing some colors after raining season // 1 of 1 edition // Loopout Pingpong Series // 1500px x 1500px ',
-        image: 'https://ipfs.pixura.io/ipfs/QmVHUS8avNKvsqRmRgDTzHWh4Sr149a73FqrJcCwTQZB7S/comedown.gif',
-        media: {
-          uri: 'https://ipfs.pixura.io/ipfs/QmVHUS8avNKvsqRmRgDTzHWh4Sr149a73FqrJcCwTQZB7S/comedown.gif',
-          dimensions: '1500x1500',
-          size: '49394816',
+          uri: 'https://ipfs.pixura.io/ipfs/QmQufjVuQQ57fWVDRzX2BCg1xosKXEg2vbz2d8ygy2uHJp/ezgif.com-gif-maker34.gif',
+          dimensions: '600x600',
+          size: '46589879',
           mimeType: 'image/gif'
         },
-        tags: [
-          'crack',
-          '2d',
-          'graffiti',
-          'cryptoart',
-          'animation',
-          'superrare',
-          'surreal',
-          'illustration',
-          'animated',
-          'drawing',
-          'loop',
-          '2dart'
-        ]
+        tags: ['MichaelJordan']
       }
     },
     {
       auctionType: 'penny',
       nftLocation: 'superrare',
       data: {
-        name: 'Gluttony',
-        createdBy: 'FOREAL®',
+        name: 'Hidden Treasure',
+        createdBy: 'Michael Jordan',
         yearCreated: '2021',
-        description: 'Starter, entrée and dessert on repeat.',
-        image: 'https://ipfs.pixura.io/ipfs/QmTb4C9Enohr4rt3ivdu9bM6g85nTvCUWNGz98xiboVpQG/FOREAL_Gluttony_thumb.gif',
+        description:
+          'Bitcoin is like treasure hidden in a field. When a man found it, he hid it again, and then in his joy went and sold all he had and bought that field. Matthew 13:44 ',
+        image: 'https://ipfs.pixura.io/ipfs/Qme2c9mUYT4adqX7GubcJiRxUByAfMNfjUUxB7qzPNY6iX/ezgif.com-gif-maker44.gif',
         media: {
-          uri: 'https://ipfs.pixura.io/ipfs/QmNkZRWebq2cn4t7ewjCbiDSRVzCVA4Y5UrEhDMVVmAVwW/FOREAL_Gluttony.mp4',
-          dimensions: '1500x1500',
-          size: '29883704',
-          mimeType: 'video/mp4'
+          uri: 'https://ipfs.pixura.io/ipfs/Qme2c9mUYT4adqX7GubcJiRxUByAfMNfjUUxB7qzPNY6iX/ezgif.com-gif-maker44.gif',
+          dimensions: '800x800',
+          size: '1787592',
+          mimeType: 'image/gif'
         },
-        tags: [
-          'foreal',
-          'weareforeal',
-          'cgi',
-          '3dart',
-          'animation',
-          'loop',
-          'food',
-          'donut',
-          'face',
-          'surreal',
-          'animated',
-          'render',
-          'munchies'
-        ]
+        tags: ['Rembrandt']
+      }
+    },
+    {
+      auctionType: 'penny',
+      nftLocation: 'superrare',
+      data: {
+        name: 'Blue Girl',
+        createdBy: 'Michael Jordan',
+        yearCreated: '2021',
+        description:
+          'The dark blue background variant of Green Girl. Additional faces have been added to the bottom corners for balance and all the colours have been darkened. The white background variant first had my signature in the bottom right corner for balance, but with blockchain technology, there is no need for a visual signature and so it was removed. I explored other colour backgrounds, most notably green, black and red but none of them felt right. So this will be the final variant of Green Girl.',
+        image: 'https://ipfs.pixura.io/ipfs/QmfKJadrWGRNH5mA5H6fnV6sGQrwN7uyJKQCPhxhWBg9KJ/biggonegirlDarkEdition.png',
+        media: {
+          uri: 'https://ipfs.pixura.io/ipfs/QmfKJadrWGRNH5mA5H6fnV6sGQrwN7uyJKQCPhxhWBg9KJ/biggonegirlDarkEdition.png',
+          dimensions: '15749x15749',
+          size: '48432276',
+          mimeType: 'image/png'
+        },
+        tags: ['variant']
+      }
+    },
+    {
+      auctionType: 'penny',
+      nftLocation: 'superrare',
+      data: {
+        name: 'Zagato',
+        createdBy: 'Michael Jordan',
+        yearCreated: '2021',
+        description:
+          "I remember the day my dad brought home a 1972 Alfa Romeo JZ 1600 designed by Zagato. The wedge-shaped body and large, glazed tailgate were at first not to my taste. My dad was very brave to let me drive his new collector's piece while I only had a learner's license. I grew to love the car and was almost as sad as my dad on the day he sold it.",
+        image: 'https://ipfs.pixura.io/ipfs/QmXUgCY4VFLFh7UWMaScUSqzfoVaE6wBLCqdnLHBy7J2Ce/Zagato.png',
+        media: {
+          uri: 'https://ipfs.pixura.io/ipfs/QmXUgCY4VFLFh7UWMaScUSqzfoVaE6wBLCqdnLHBy7J2Ce/Zagato.png',
+          dimensions: '3544x3544',
+          size: '287585',
+          mimeType: 'image/png'
+        },
+        tags: ['Car', '70s']
+      }
+    },
+    {
+      auctionType: 'penny',
+      nftLocation: 'superrare',
+      data: {
+        name: 'Bubble Llama',
+        createdBy: 'Michael Jordan',
+        yearCreated: '2021',
+        description:
+          "Hi I'm Pecan-nut the Llama, check out my friends and I on Instragram: https://www.instagram.com/dollyllamasquad",
+        image: 'https://ipfs.pixura.io/ipfs/QmV8com1YjbuWR9XGVkCWePa5cKKyj7VukB7pn9t8exwbh/ezgif.com-gif-maker42.gif',
+        media: {
+          uri: 'https://ipfs.pixura.io/ipfs/QmV8com1YjbuWR9XGVkCWePa5cKKyj7VukB7pn9t8exwbh/ezgif.com-gif-maker42.gif',
+          dimensions: '1200x1200',
+          size: '5258684',
+          mimeType: 'image/gif'
+        },
+        tags: ['llama', 'cute']
       }
     }
   ]
@@ -232,6 +224,11 @@ export default function Home() {
   const MarketPlaceContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: center; */
+    padding: 0 1%;
+    @media screen and (min-width: 1600px) {
+      padding: 0 4%;
+    }
   `
 
   return (
@@ -241,9 +238,7 @@ export default function Home() {
         <NftItem item={JSON.stringify(myData[1])} />
         <NftItem item={JSON.stringify(myData[2])} />
         <NftItem item={JSON.stringify(myData[3])} />
-        <NftItem item={JSON.stringify(myData[0])} />
-        <NftItem item={JSON.stringify(myData[1])} />
-        <NftItem item={JSON.stringify(myData[2])} />
+        <NftItem item={JSON.stringify(myData[4])} />
       </MarketPlaceContainer>
       {/* <PageWrapper> <NftItem>Mike</NftItem>
         <NftItem>Tyson</NftItem> */}
